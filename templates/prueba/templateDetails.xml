@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.0" type="template" client="site">
+
+	<name>Dani</name>
+	<version>1.0</version>
+	<creationDate>5/12/2013</creationDate>
+	<author>Daniel Sánchez</author>
+	<authorEmail>m4lk1@icloud.com</authorEmail>
+	<copyright>free for ur face</copyright>
+	<description>Mi primer template</description>
+	
+	<files>
+		<filename>index.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>imagenes</folder>
+	</files>
+	<positions>
+		<position>logo</position>
+		<position>menu</position>
+		<position>slide</position>
+		<position>med1</position>
+		<position>med2</position>
+		<position>med3</position>
+		<position>med4</position>
+		<position>med5</position>
+		<position>med6</position>
+		<position>bar1</position>
+		<position>bar2</position>
+		<position>bar3</position>
+		<position>bar4</position>
+		<position>bar5</position>
+		<position>pie</position>
+	</positions>
+</extension>
