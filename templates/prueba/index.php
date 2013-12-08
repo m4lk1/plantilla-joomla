@@ -33,32 +33,9 @@
 	</div>
 	
 	<div id="globalcontenido">
-	
-		<div id="med1">
-			<jdoc:include type="component" />
-		</div>
-		
-		<div id="med2">
-			<jdoc:include type="component" />
-		</div>
-		
-		<div id="med3">
-			<jdoc:include type="component" />
-		</div>
-		
-		<div id="med4">
-			<jdoc:include type="component" />
-		</div>
-		
-		<div id="med5">
-			<jdoc:include type="component" />
-		</div>
-		
-		<div id="med6">
-			<jdoc:include type="component" />
-		</div>
-		
+		<jdoc:include type="component" />
 	</div>
+		
 	
 	<div id="globalbarra"
 	
@@ -78,9 +55,6 @@
 			<jdoc:include type="modules" name="bar4" style="xhtml" />
 		</div>
 		
-		<div id="bar5">
-			<jdoc:include type="modules" name="bar5" style="xhtml" />
-		</div>
 		
 	</div>
 	
