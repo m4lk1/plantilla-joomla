@@ -1,6 +1,37 @@
-body {
+body{
 	width: 1280px;
 	margin:  0 auto;
 	border: 1px solid blue;
 	
+}
+
+#globalmenu{
+	width: 1280px;
+	margin: 0 auto;
+	border: 1px solid blue;
+	height: 110px;
+	
+}
+
+#logo{
+	position: relative;
+	float: left;
+	height: 110px;
+	width: 160px;
+	border: 1px solid red;
+	background: url(http://joomla.dsanchez.org/images/slide/logo-sag.png) no-repeat;
+}
+
+#menu{
+	position: relative;
+	float: left;
+	height: 110px;
+	width: 1116px;
+	border: 1px solid yellow;
+	
+}
+
+slide{
+	position relative;
+	height: 
 }
