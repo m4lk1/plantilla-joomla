@@ -20,15 +20,10 @@
 		<folder>imagenes</folder>
 	</files>
 	<positions>
-		<position>logo</position>
+		<position>cabecera</position>
 		<position>menu</position>
 		<position>slide</position>
-		<position>med1</position>
-		<position>med2</position>
-		<position>med3</position>
-		<position>med4</position>
-		<position>med5</position>
-		<position>med6</position>
+		<position>globalcontenido</position>
 		<position>bar1</position>
 		<position>bar2</position>
 		<position>bar3</position>
