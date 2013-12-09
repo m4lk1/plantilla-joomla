@@ -9,6 +9,7 @@
 	<script src="/media/jui/js/bootstrap.min.js" type"=text/javascript"> </script>
 	<jdoc:include type="head" />
 	
+	
 </head>
 
 <body>

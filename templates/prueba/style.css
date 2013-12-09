@@ -1,30 +1,56 @@
+@font-face {
+    font-family: 'destroyregular';
+    src: url('DESTROY_-webfont.eot');
+    src: url('DESTROY_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('DESTROY_-webfont.woff') format('woff'),
+         url('DESTROY_-webfont.ttf') format('truetype'),
+         url('DESTROY_-webfont.svg#destroyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+	
+
 body{
-	width: 1280px;
+	width: 1278px;
 	height: 880px;
 	margin:  0 auto;
-	border: 1px solid blue;
-	
+	background: black;
 }
 
 #cabecera{
 	width: 1280px;
-	height: 150px;
-	border: 1px solid pink;
+	height: 170px;
+	background: black;
+	background: url(http://joomla.dsanchez.org/images/slide/cabezeraweb.gif);
 }
 
 
 #globalbarra{
-	width: 276px;
-	height: 600px;
-	border: 1px solid red;
+	width: 324px;
+	height: 1412px;
+	//border: 1px solid red;
 	float: right;
+	
+	
+	
 	
 }
 
 #globalcontenido{
-	width: 1000px;
-	height: 600px;
+	width: 950px;
+	height: 1412px;
 	border: 1px solid grey;
+	background: white;
+	background: url(http://joomla.dsanchez.org/images/slide/fondocontenido.jpg);
+
+	
+}
+
+#globalcontenido .item-title {
+	text-align: center;
+	margin-top: 90px;
+	font-family: 'destroyregular';
 }
 
 #pie{
@@ -34,18 +60,50 @@ body{
 	float: none;
 }
 
-#globalbarra bar2{
-	width: 200px;
-	height: 100px;
-	border: 1px solid black black;
-	float: right;
-	
+#bar2{
+	height: 200px; 
+	width: 326px; 
+	float: right; 
+	margin-right: -324px; 
+	//border: 1px solid blue;
+	background: black;
+}
+
+
+#bar2 img {
+	margin-left: 100px;
+	margin-top: 20px;
+}
+
+#bar3{
+	height: 200px; 
+	width: 276px; 
+	float: right; 
+	margin-right: -278px; 
+	//border: 1px solid blue;
+	background: 1px solid pink;
+	margin-top:200px;
+	color: white;
+	font-family: 'destroyregular'
+}
+
+#bar4{
+	height: 200px; 
+	width: 276px; 
+	float: right; 
+	margin-right: -278px; 
+	//border: 1px solid blue;
+	background: black;
+	margin-top: 400px;
+}
+
+.moduletable.jmoddiv {
+	margin-left: 60px;
 }
 
 #cssmenu {
   width: auto;
   height: 27px;
-  margin: 0;
   padding: 0;
   background: #000000 url(http://joomla.dsanchez.org/images/slide/1.gif) top left repeat-x;
 }
@@ -58,7 +116,7 @@ body{
   float: left;
   margin: 0;
   padding: 0;
-  background: transparent url(http://joomla.dsanchez.org/images/slide/2.gif) top left no-repeat;
+  background: transparent url(http://joomla.dsanchez.org/images/slide/2.GIF) top left no-repeat;
 }
 #cssmenu ul li a {
   display: block;
@@ -67,9 +125,9 @@ body{
   padding-right: 35px;
   float: left;
   text-transform: uppercase;
-  font-family: 'Helvetica Neue', helvetica, 'microsoft sans serif', arial, sans-serif;
-  font-size: 12px;
-  color: #FFFFFF;
+  font-family: 'destroyregular','Helvetica Neue', helvetica, 'microsoft sans serif', arial, sans-serif;
+  font-size: 16px;
+  color: #ffffff;
   text-decoration: none;
 }
 #cssmenu ul li a span {
@@ -79,14 +137,17 @@ body{
   padding-top: 5px;
   padding-left: 35px;
   padding-right: 20px;
-  background: transparent url(http://joomla.dsanchez.org/images/slide/2.gif) top right no-repeat;
+  background: transparent url(http://joomla.dsanchez.org/images/slide/2.GIF) top right no-repeat;
   cursor: pointer;
 }
-#cssmenu ul li a:hover,
+#cssmenu ul li a:hover {
+  color:#8A0000;
+}
 #cssmenu ul li.active a {
-  background: transparent url(http://joomla.dsanchez.org/images/slide/3.gif) top left no-repeat;
+  background: transparent url(http://joomla.dsanchez.org/images/slide/3.GIF) top left no-repeat;
+  color:#8A0000;
 }
 #cssmenu ul li a:hover span,
 #cssmenu ul li.active a span {
-  background: transparent url(http://joomla.dsanchez.org/images/slide/.gif) top right no-repeat;
+  background: transparent url(http://joomla.dsanchez.org/images/slide/3.GIF) top right no-repeat;
 }
