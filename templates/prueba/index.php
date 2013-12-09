@@ -12,7 +12,8 @@
 	
 </head>
 
-<body>
+<body link="#FFFFFF" vlink="#FFFFFF" alink="#8A0000">
+
 
 <div id="global">
 

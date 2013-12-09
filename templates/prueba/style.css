@@ -40,17 +40,16 @@ body{
 #globalcontenido{
 	width: 950px;
 	height: 1412px;
-	border: 1px solid grey;
-	background: white;
+	//border: 1px solid grey;
 	background: url(http://joomla.dsanchez.org/images/slide/fondocontenido.jpg);
-
-	
 }
 
-#globalcontenido .item-title {
+
+#globalcontenido h2 {
 	text-align: center;
-	margin-top: 90px;
+	margin-top: 30px;
 	font-family: 'destroyregular';
+	padding-top: 100px;
 }
 
 #pie{
